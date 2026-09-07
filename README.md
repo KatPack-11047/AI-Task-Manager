@@ -28,8 +28,9 @@
 
 Для начала работы с приложением вам нужно будет создать и подключить базу данных из PostgreSQL. 
 
-Для этого запустите db_setup.exe и он сам создаст файл, который будет вести к вашей локальной базе данных;
-![[{381B0CAC-CF3B-4101-944E-60EC9C5B05ED}.png]]
+Для этого запустите db_setup.exe и он сам создаст файл, который будет вести к вашей локальной базе данных или программа сама предложит это сделать в запуске launcher.exe если не найдёт базу;
+
+![db_setup](https://github.com/KatPack-11047/Images/blob/main/AI%20Task%20Manager/db_setup.png)
 ### Ручной способ подключения базы данных
 1. **База данных PostgreSQL** должна быть создана и в неё должна быть накатана схема из `backend/db/init.sql`:
    ```
@@ -63,10 +64,13 @@
 
 | backend                                         | frontend                                        |
 | ----------------------------------------------- | ----------------------------------------------- |
-| ![[{912598C3-F023-4E7F-A635-6D6212D9E5E8}.png]] | ![[{A46D51ED-9F89-4700-B2BA-C21CC1AA2D96}.png]] |
+| ![back_log](https://github.com/KatPack-11047/Images/blob/main/AI%20Task%20Manager/back_log.png) | ![front_log](https://github.com/KatPack-11047/Images/blob/main/AI%20Task%20Manager/front_log.png) |
 
 1. Открыть в браузере: **http://localhost:5173**
 2. Чтобы остановить всё — в окне лаунчера ввести `exit`.
+
+Окно лаунчера:
+![launcher](https://github.com/KatPack-11047/Images/blob/main/AI%20Task%20Manager/launcher.png)
 
 ### Ручной способ запуска программы
 
