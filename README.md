@@ -9,7 +9,7 @@
 - Задачи можно удалять.
 - Список задач хранится в базе данных PostgreSQL.
 - Есть экспорт всех задач в CSV-файл (кнопка на фронтенде дергает backend, а backend запускает Python-скрипт, который формирует CSV).
-![[{861E6A85-54AD-4376-AAFD-D12180EF5C9E}.png]]
+![weba_app](https://github.com/KatPack-11047/Images/blob/main/AI%20Task%20Manager/front.png)
 
 Архитектура: React-фронтенд (Vite, порт `5173`) → Express-бэкенд (Node.js, порт `3000`) → PostgreSQL (порт `5432`). Для экспорта в CSV backend отдельно вызывает Python.
 
