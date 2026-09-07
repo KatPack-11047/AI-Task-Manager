@@ -1,0 +1,43 @@
+:root {
+  --bg: #f5f6fa;
+  --panel: #ffffff;
+  --border: #e5e7eb;
+  --ink: #1f2430;
+  --ink-soft: #6b7280;
+  --accent: #2f6fed;
+  --accent-ink: #ffffff;
+
+  --status-new-bg: #eef0f4;
+  --status-new-ink: #6b7280;
+  --status-progress-bg: #fff4e0;
+  --status-progress-ink: #b9852c;
+  --status-done-bg: #e6f6ec;
+  --status-done-ink: #2f9e56;
+
+  --danger: #e24c4b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: 0.9rem;
+}
