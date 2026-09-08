@@ -70,15 +70,12 @@
 
 | backend                                         | frontend                                        |
 | ----------------------------------------------- | ----------------------------------------------- |
-
 | ![back_log](https://github.com/KatPack-11047/Images/blob/main/AI%20Task%20Manager/back_log.png) | ![front_log](https://github.com/KatPack-11047/Images/blob/main/AI%20Task%20Manager/front_log.png) |
 
 
 1. Открыть в браузере: **http://localhost:5173**
 2. Чтобы остановить всё — в окне лаунчера ввести `exit`.
 
-<<<<<<< HEAD
-=======
 Окно лаунчера:
 ![launcher](https://github.com/KatPack-11047/Images/blob/main/AI%20Task%20Manager/launcher.png)
 
